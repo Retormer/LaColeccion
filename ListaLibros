@@ -1,0 +1,202 @@
+<html dir="ltr" lang="es-ES">
+<head>
+  <title>La Coleccion</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8">
+  <meta NAME="ROBOTS" CONTENT="NOINDEX, NOFOLLOW">
+  <meta name="language" content="spanish">
+  <meta name="distribution" content="Global"/>
+  <meta name="audience" content="all"/>
+  <meta name="Geography" content="spain" />
+  <meta name="country" content="spain" />
+  <meta http-equiv="Expires" content="0" />
+  <meta http-equiv="Last-Modified" content="0" />
+	<meta http-equiv="Cache-Control" content="no-store, no-cache, must-revalidate, pre-check=0, post-check=0, max-age=0" />
+	<meta http-equiv="Pragma" content="no-cache, private, no-store" />
+  <link rel="shortcut icon" href="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEASABIAAD/4QCARXhpZgAATU0AKgAAAAgABQESAAMAAAABAAEAAAEaAAUAAAABAAAASgEbAAUAAAABAAAAUgEoAAMAAAABAAIAAIdpAAQAAAABAAAAWgAAAAAAAABIAAAAAQAAAEgAAAABAAKgAgAEAAAAAQAAABCgAwAEAAAAAQAAABAAAAAA/9sAQwACAQECAQECAgECAgICAgMFAwMDAwMGBAQDBQcGBwcHBgYGBwgLCQcICggGBgkNCQoLCwwMDAcJDQ4NDA4LDAwL/9sAQwECAgIDAgMFAwMFCwgGCAsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsLCwsL/8AAEQgAEAAQAwEiAAIRAQMRAf/EAB8AAAEFAQEBAQEBAAAAAAAAAAABAgMEBQYHCAkKC//EALUQAAIBAwMCBAMFBQQEAAABfQECAwAEEQUSITFBBhNRYQcicRQygZGhCCNCscEVUtHwJDNicoIJChYXGBkaJSYnKCkqNDU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6g4SFhoeIiYqSk5SVlpeYmZqio6Slpqeoqaqys7S1tre4ubrCw8TFxsfIycrS09TV1tfY2drh4uPk5ebn6Onq8fLz9PX29/j5+v/EAB8BAAMBAQEBAQEBAQEAAAAAAAABAgMEBQYHCAkKC//EALURAAIBAgQEAwQHBQQEAAECdwABAgMRBAUhMQYSQVEHYXETIjKBCBRCkaGxwQkjM1LwFWJy0QoWJDThJfEXGBkaJicoKSo1Njc4OTpDREVGR0hJSlNUVVZXWFlaY2RlZmdoaWpzdHV2d3h5eoKDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uLj5OXm5+jp6vLz9PX29/j5+v/aAAwDAQACEQMRAD8A6L/ghz/wQ2+Evgn9kvwf8Tf2nfB+kePfHnjywi1uKLW7cXNlodpKN9vFFbP8jSmPy5HkdSwZtq4Cksf8Fx/+CG3wl8afsleMPid+zF4P0jwF478BWEuuTRaJbi1sdbtIhvuIpbZPkWURiSRJEUMWXa2QwKr/AMEOf+C5Hwl8bfsleD/hl+074x0fwF488B2EWiRS63cC1stctIhst5Yrl/kWURiON43YMWXcuQxCr/wXH/4Lj/CXwT+yT4x+GX7MnjHR/Hvjzx7YS6HLJolwLqy0S0lGy4lluU+QyGMyIkaMWDNubAXDf5lX8VP+Iqf8xHtfrP8Af9h7Dn/8F+x9n/XtD7L/AGH6j0tbyve333v/AFY//9k=" type="image/x-icon"> 
+  <style type=text/css>
+    body { background: #f5f5f5 url('data:image/gif;base64,R0lGODlhAQAEAJEAAOfn5+vr6ubm5vf39SwAAAAAAQAEAAACAxQCBQA7'); background-repeat: repeat; font-size: 10pt; COLOR: black; font-family: Verdana,arial, helvetica, serif;}
+    h1 { text-decoration: none; color: green; }
+    h3 { text-decoration: none; color: green; }
+    a:link { text-decoration: none; color: #4444aa; }
+    a:visited { text-decoration: none; color: green; font-weight: bold }
+    a:active { text-decoration: none; color: #4444aa; }
+    a:hover { text-decoration: underline; color: #4444aa; font-weight: bold }
+    lin.row:hover { background-color: #90c8f5; }
+    lina.row { background-color: #64E241; }
+    linn.row { background-color: #F4E241; }
+    form { display: inline; }
+    p { font-family: monospace; font-size: 15px; margin-left: 1.0em}
+  </style>
+  
+</head>
+<body id="top" bgcolor="#fafafa" text="#000000" leftmargin="25" topmargin="25" marginwidth="25" marginheight="25" link="#000020" vlink="#000020" alink="#000020">
+<center><h1><b><a href="" target="_blank">Lista de libros analizados</a></b></h1></center>
+<center><font style="font-family:helvetica;font-size:10pt;"><a href="https://linktr.ee/lacoleccion" target="_blank">Redes sociales "La Colección"</a></font></center>
+<center><p id="cantidad">as</p></center>
+<center><hr size=2 noshade=“noshade”></center><center><p style="font-size:1.3em;"><b><a href="#l04">0</a></b> <b><a href="#l05">1</a></b> <b><a href="#l06">2</a></b> <b><a href="#l07">3</a></b> 
+  <b><a href="#l08">4</a></b> <b><a href="#l09">5</a></b> <b><a href="#l10">6</a></b> <b><a href="#l11">7</a></b> <b><a href="#l12">8</a></b> <b><a href="#l13">9</a></b> 
+  <b><a href="#l16">A</a></b> <b><a href="#l17">B</a></b> <b><a href="#l18">C</a></b> <b><a href="#l19">D</a></b> <b><a href="#l20">E</a></b> <b><a href="#l21">F</a></b> 
+  <b><a href="#l22">G</a></b> <b><a href="#l23">H</a></b> <b><a href="#l24">I</a></b> <b><a href="#l25">J</a></b> <b><a href="#l26">K</a></b> <b><a href="#l27">L</a></b> 
+  <b><a href="#l28">M</a></b> <b><a href="#l29">N</a></b> <b><a href="#l30">O</a></b> <b><a href="#l31">P</a></b> <b><a href="#l32">Q</a></b> <b><a href="#l33">R</a></b> 
+  <b><a href="#l34">S</a></b> <b><a href="#l35">T</a></b> <b><a href="#l36">U</a></b> <b><a href="#l37">V</a></b> <b><a href="#l38">W</a></b> <b><a href="#l39">X</a></b> 
+  <b><a href="#l40">Y</a></b> <b><a href="#l41">Z</a></b></p></center>
+
+<p>Nº de lectura | Nº de páginas | Título de la obra | Autor | Enlace a Youtube</p>
+<div style="font-size:1.3em;"><b><a name="l04"></a>0</b>
+  <p class="libro">00001 |   221  | 0 Hashtag | Benjamin Jiménez Molpo | YouTube </p>
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l05"></a>1</b>
+
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l06"></a>2</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l07"></a>3</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l08"></a>4</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l09"></a>5</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l10"></a>6</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l11"></a>7</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l12"></a>8</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l13"></a>9</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l16"></a>A</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l17"></a>B</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l18"></a>C</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l19"></a>D</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l20"></a>E</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l21"></a>F</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l22"></a>G</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l23"></a>H</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l24"></a>I</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l25"></a>J</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l26"></a>K</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l27"></a>L</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l28"></a>M</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l29"></a>N</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l30"></a>O</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l31"></a>P</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l32"></a>Q</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l33"></a>R</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l35"></a>T</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l36"></a>U</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l37"></a>V</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l38"></a>W</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l39"></a>X</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l40"></a>Y</b>
+  
+</div>
+
+<div style="font-size:1.3em;"><b><a name="l41"></a>Z</b>
+  
+</div>
+
+
+<center><p style="font-size:1.3em;"><b><a href="#l04">0</a></b> <b><a href="#l05">1</a></b> <b><a href="#l06">2</a></b> <b><a href="#l07">3</a></b> <b><a href="#l08">4</a></b> <b><a href="#l09">5</a></b> <b><a href="#l10">6</a></b> <b><a href="#l11">7</a></b> <b><a href="#l12">8</a></b> <b><a href="#l13">9</a></b> <b><a href="#l16">A</a></b> <b><a href="#l17">B</a></b> <b><a href="#l18">C</a></b> <b><a href="#l19">D</a></b> <b><a href="#l20">E</a></b> <b><a href="#l21">F</a></b> <b><a href="#l22">G</a></b> <b><a href="#l23">H</a></b> <b><a href="#l24">I</a></b> <b><a href="#l25">J</a></b> <b><a href="#l26">K</a></b> <b><a href="#l27">L</a></b> <b><a href="#l28">M</a></b> <b><a href="#l29">N</a></b> <b><a href="#l30">O</a></b> <b><a href="#l31">P</a></b> <b><a href="#l32">Q</a></b> <b><a href="#l33">R</a></b> <b><a href="#l34">S</a></b> <b><a href="#l35">T</a></b> <b><a href="#l36">U</a></b> <b><a href="#l37">V</a></b> <b><a href="#l38">W</a></b> <b><a href="#l39">X</a></b> <b><a href="#l40">Y</a></b> <b><a href="#l41">Z</a></b></center>
+
+<center><font style="font-family:helvetica;font-size:10pt;"><a href="https://linktr.ee/lacoleccion" target="_blank">Redes sociales "La Colección"</a></font></center>
+</body>
+<script>
+  var libros = document.getElementsByClassName('libro').length;
+  var msj = "";
+  if (libros <= 0) {
+    msj = "Todavía no hemos analizado ningún libro.";
+  } else if( libros == 1) {
+    msj = "Se ha analizado 1 libro.";
+  } else {
+    msj = "Se han analizado un total de " + libros + " libros.";
+  }
+  document.getElementById('cantidad').innerHTML = msj;
+</script>
+</html>
