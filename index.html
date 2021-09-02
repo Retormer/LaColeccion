@@ -104,18 +104,6 @@
 <center><font style="font-family:helvetica;font-size:10pt;"><a href="https://linktr.ee/lacoleccion" target="_blank">Redes sociales "La Colección"</a></font></center>
 </body>
 <script>
-  //Estructura inicial (Contador de libros)
-  var libros = document.getElementsByClassName('libro').length;
-  var msj = "";
-  if (libros <= 0) {
-    msj = "Todavía no hemos analizado ningún libro.";
-  } else if( libros == 1) {
-    msj = "Se ha analizado 1 libro.";
-  } else {
-    msj = "Se han analizado un total de " + libros + " libros.";
-  }
-  document.getElementById('cantidad').innerHTML = msj;
-
   //Orden de libros
 	
     //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
@@ -153,5 +141,17 @@
     //Añadimos las etiquetas a su lugar
     seccionCorrecta.appendChild(p);
   }
+//Estructura inicial (Contador de libros)
+  var libros = document.getElementsByClassName('libro').length;
+  var msj = "";
+  if (libros <= 0) {
+    msj = "Todavía no hemos analizado ningún libro.";
+  } else if( libros == 1) {
+    msj = "Se ha analizado 1 libro.";
+  } else {
+    msj = "Se han analizado un total de " + libros + " libros.";
+  }
+  document.getElementById('cantidad').innerHTML = msj;
+
 </script>
 </html>
