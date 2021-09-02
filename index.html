@@ -27,12 +27,43 @@
     form { display: inline; }
     p { font-family: monospace; font-size: 15px; margin-left: 1.0em}
   </style>
-  
+  <script>
+    function zfill(number, width) {
+    var numberOutput = Math.abs(number); /* Valor absoluto del número */
+    var length = number.toString().length; /* Largo del número */ 
+    var zero = "0"; /* String de cero */  
+    
+    if (width <= length) {
+        if (number < 0) {
+             return ("-" + numberOutput.toString()); 
+        } else {
+             return numberOutput.toString(); 
+        }
+    } else {
+        if (number < 0) {
+            return ("-" + (zero.repeat(width - length)) + numberOutput.toString()); 
+        } else {
+            return ((zero.repeat(width - length)) + numberOutput.toString()); 
+        }
+    }
+
+
+    //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
+    /*La estructura es la siguiente:
+          Nombre Libro (Primera letra en mayúscula);Nombre Autor;Enlace a youtube
+    */
+    var arrayLibros = ['Transcrepuscular;Emilio Bueso;http://www.youtube.com']; 
+    //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
+
+
+
+}
+  </script>
 </head>
 <body id="top" bgcolor="#fafafa" text="#000000" leftmargin="25" topmargin="25" marginwidth="25" marginheight="25" link="#000020" vlink="#000020" alink="#000020">
 <center><h1><b><a href="" target="_blank">Lista de libros analizados</a></b></h1></center>
 <center><font style="font-family:helvetica;font-size:10pt;"><a href="https://linktr.ee/lacoleccion" target="_blank">Redes sociales "La Colección"</a></font></center>
-<center><p id="cantidad">as</p></center>
+<center><p id="cantidad"></p></center>
 <center><hr size=2 noshade=“noshade”></center><center><p style="font-size:1.3em;"><b><a href="#l04">0</a></b> <b><a href="#l05">1</a></b> <b><a href="#l06">2</a></b> <b><a href="#l07">3</a></b> 
   <b><a href="#l08">4</a></b> <b><a href="#l09">5</a></b> <b><a href="#l10">6</a></b> <b><a href="#l11">7</a></b> <b><a href="#l12">8</a></b> <b><a href="#l13">9</a></b> 
   <b><a href="#l16">A</a></b> <b><a href="#l17">B</a></b> <b><a href="#l18">C</a></b> <b><a href="#l19">D</a></b> <b><a href="#l20">E</a></b> <b><a href="#l21">F</a></b> 
@@ -41,153 +72,50 @@
   <b><a href="#l34">S</a></b> <b><a href="#l35">T</a></b> <b><a href="#l36">U</a></b> <b><a href="#l37">V</a></b> <b><a href="#l38">W</a></b> <b><a href="#l39">X</a></b> 
   <b><a href="#l40">Y</a></b> <b><a href="#l41">Z</a></b></p></center>
 
-<p>Nº de lectura | Nº de páginas | Título de la obra | Autor | Enlace a Youtube</p>
-<div style="font-size:1.3em;"><b><a name="l04"></a>0</b>
-  <p class="libro">00001 |   221  | 0 Hashtag | Benjamin Jiménez Molpo | YouTube </p>
-</div>
+<p>Nº de lectura | Título de la obra | Autor | Enlace a Youtube</p>
 
-<div style="font-size:1.3em;"><b><a name="l05"></a>1</b>
-
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l06"></a>2</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l07"></a>3</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l08"></a>4</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l09"></a>5</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l10"></a>6</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l11"></a>7</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l12"></a>8</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l13"></a>9</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l16"></a>A</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l17"></a>B</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l18"></a>C</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l19"></a>D</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l20"></a>E</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l21"></a>F</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l22"></a>G</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l23"></a>H</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l24"></a>I</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l25"></a>J</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l26"></a>K</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l27"></a>L</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l28"></a>M</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l29"></a>N</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l30"></a>O</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l31"></a>P</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l32"></a>Q</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l33"></a>R</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l35"></a>T</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l36"></a>U</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l37"></a>V</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l38"></a>W</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l39"></a>X</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l40"></a>Y</b>
-  
-</div>
-
-<div style="font-size:1.3em;"><b><a name="l41"></a>Z</b>
-  
-</div>
-
+<div style="font-size:1.3em;" id="0"><b><a name="l04"></a>0</b></div>
+<div style="font-size:1.3em;" id="1"><b><a name="l05"></a>1</b></div>
+<div style="font-size:1.3em;" id="2"><b><a name="l06"></a>2</b></div>
+<div style="font-size:1.3em;" id="3"><b><a name="l07"></a>3</b></div>
+<div style="font-size:1.3em;" id="4"><b><a name="l08"></a>4</b></div>
+<div style="font-size:1.3em;" id="5"><b><a name="l09"></a>5</b></div>
+<div style="font-size:1.3em;" id="6"><b><a name="l10"></a>6</b></div>
+<div style="font-size:1.3em;" id="7"><b><a name="l11"></a>7</b></div>
+<div style="font-size:1.3em;" id="8"><b><a name="l12"></a>8</b></div>
+<div style="font-size:1.3em;" id="9"><b><a name="l13"></a>9</b></div>
+<div style="font-size:1.3em;" id="A"><b><a name="l16"></a>A</b></div>
+<div style="font-size:1.3em;" id="B"><b><a name="l17"></a>B</b></div>
+<div style="font-size:1.3em;" id="C"><b><a name="l18"></a>C</b></div>
+<div style="font-size:1.3em;" id="D"><b><a name="l19"></a>D</b></div>
+<div style="font-size:1.3em;" id="E"><b><a name="l20"></a>E</b></div>
+<div style="font-size:1.3em;" id="F"><b><a name="l21"></a>F</b></div>
+<div style="font-size:1.3em;" id="G"><b><a name="l22"></a>G</b></div>
+<div style="font-size:1.3em;" id="H"><b><a name="l23"></a>H</b></div>
+<div style="font-size:1.3em;" id="I"><b><a name="l24"></a>I</b></div>
+<div style="font-size:1.3em;" id="J"><b><a name="l25"></a>J</b></div>
+<div style="font-size:1.3em;" id="K"><b><a name="l26"></a>K</b></div>
+<div style="font-size:1.3em;" id="L"><b><a name="l27"></a>L</b></div>
+<div style="font-size:1.3em;" id="M"><b><a name="l28"></a>M</b></div>
+<div style="font-size:1.3em;" id="N"><b><a name="l29"></a>N</b></div>
+<div style="font-size:1.3em;" id="O"><b><a name="l30"></a>O</b></div>
+<div style="font-size:1.3em;" id="P"><b><a name="l31"></a>P</b></div>
+<div style="font-size:1.3em;" id="Q"><b><a name="l32"></a>Q</b></div>
+<div style="font-size:1.3em;" id="R"><b><a name="l33"></a>R</b></div>
+<div style="font-size:1.3em;" id="T"><b><a name="l35"></a>T</b></div>
+<div style="font-size:1.3em;" id="U"><b><a name="l36"></a>U</b></div>
+<div style="font-size:1.3em;" id="V"><b><a name="l37"></a>V</b></div>
+<div style="font-size:1.3em;" id="W"><b><a name="l38"></a>W</b></div>
+<div style="font-size:1.3em;" id="X"><b><a name="l39"></a>X</b></div>
+<div style="font-size:1.3em;" id="Y"><b><a name="l40"></a>Y</b></div>
+<div style="font-size:1.3em;" id="Z"><b><a name="l41"></a>Z</b></div>
 
 <center><p style="font-size:1.3em;"><b><a href="#l04">0</a></b> <b><a href="#l05">1</a></b> <b><a href="#l06">2</a></b> <b><a href="#l07">3</a></b> <b><a href="#l08">4</a></b> <b><a href="#l09">5</a></b> <b><a href="#l10">6</a></b> <b><a href="#l11">7</a></b> <b><a href="#l12">8</a></b> <b><a href="#l13">9</a></b> <b><a href="#l16">A</a></b> <b><a href="#l17">B</a></b> <b><a href="#l18">C</a></b> <b><a href="#l19">D</a></b> <b><a href="#l20">E</a></b> <b><a href="#l21">F</a></b> <b><a href="#l22">G</a></b> <b><a href="#l23">H</a></b> <b><a href="#l24">I</a></b> <b><a href="#l25">J</a></b> <b><a href="#l26">K</a></b> <b><a href="#l27">L</a></b> <b><a href="#l28">M</a></b> <b><a href="#l29">N</a></b> <b><a href="#l30">O</a></b> <b><a href="#l31">P</a></b> <b><a href="#l32">Q</a></b> <b><a href="#l33">R</a></b> <b><a href="#l34">S</a></b> <b><a href="#l35">T</a></b> <b><a href="#l36">U</a></b> <b><a href="#l37">V</a></b> <b><a href="#l38">W</a></b> <b><a href="#l39">X</a></b> <b><a href="#l40">Y</a></b> <b><a href="#l41">Z</a></b></center>
 
 <center><font style="font-family:helvetica;font-size:10pt;"><a href="https://linktr.ee/lacoleccion" target="_blank">Redes sociales "La Colección"</a></font></center>
 </body>
 <script>
+  //Estructura inicial (Contador de libros)
   var libros = document.getElementsByClassName('libro').length;
   var msj = "";
   if (libros <= 0) {
@@ -198,5 +126,36 @@
     msj = "Se han analizado un total de " + libros + " libros.";
   }
   document.getElementById('cantidad').innerHTML = msj;
+
+  //Orden de libros
+  const youtube = "Youtube";
+  for (let i = 0; i < arrayLibros.length; i++) {
+    var numeroLibro = i+1;
+    var seccion = arrayLibros[i].charAt(0);
+    var obra = arrayLibros[i].split(';')[0];
+    var autor = arrayLibros[i].split(';')[1];
+    var enlace = arrayLibros[i].split(';')[2];
+
+    //Creación de enlace
+    var a = document.createElement('a');
+    a.innerHTML = youtube;
+    a.setAttribute("href", enlace);
+    a.setAttribute("target", "_blank");
+
+    //Añadir a sección correcta
+    var seccionCorrecta = document.getElementById(seccion);
+      //Creamos el párrafo
+      var p = document.createElement("p");
+      p.setAttribute("class", "libro");
+        //Generamos el número con estilo
+          numeroLibro = zfill(numeroLibro, 5);
+      //Generamos el texto a mostrar
+      var texto = document.createTextNode(numeroLibro + " | " + obra + " | " + autor + " | ");
+      //Vinculamos el texto al párrafo
+      p.appendChild(texto);
+      p.appendChild(a);
+    //Añadimos las etiquetas a su lugar
+    seccionCorrecta.appendChild(p);
+  }
 </script>
 </html>
