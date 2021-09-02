@@ -46,17 +46,6 @@
             return ((zero.repeat(width - length)) + numberOutput.toString()); 
         }
     }
-
-
-    //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
-    /*La estructura es la siguiente:
-          Nombre Libro (Primera letra en mayúscula);Nombre Autor;Enlace a youtube
-    */
-    var arrayLibros = ['Transcrepuscular;Emilio Bueso;http://www.youtube.com']; 
-    //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
-
-
-
 }
   </script>
 </head>
@@ -128,6 +117,13 @@
   document.getElementById('cantidad').innerHTML = msj;
 
   //Orden de libros
+	
+    //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
+    /*La estructura es la siguiente:
+          Nombre Libro (Primera letra en mayúscula);Nombre Autor;Enlace a youtube
+    */
+    var arrayLibros = ['Transcrepuscular;Emilio Bueso;http://www.youtube.com']; 
+    //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
   const youtube = "Youtube";
   for (let i = 0; i < arrayLibros.length; i++) {
     var numeroLibro = i+1;
