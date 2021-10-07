@@ -61,7 +61,7 @@
   <b><a href="#l34">S</a></b> <b><a href="#l35">T</a></b> <b><a href="#l36">U</a></b> <b><a href="#l37">V</a></b> <b><a href="#l38">W</a></b> <b><a href="#l39">X</a></b> 
   <b><a href="#l40">Y</a></b> <b><a href="#l41">Z</a></b></p></center>
 
-<p>Nº de lectura | Título de la obra | Autor | Enlace al Análisis</p>
+<p>Nº de lectura | Título de la obra | Autor | Enlace al Análisis | Enlace a Youtube</p>
 
 <div style="font-size:1.3em;" id="0"><b><a name="l04"></a>0</b></div>
 <div style="font-size:1.3em;" id="1"><b><a name="l05"></a>1</b></div>
@@ -112,19 +112,32 @@
     */
     var arrayLibros = ['Transcrepuscular;Emilio Bueso;https://docdro.id/PNGLlZd']; 
     //-------------------------RELLENAR LIBROS AQUÍ----------------------------------------------------
-  const youtube = "Análisis";
+  const analisis = "Análisis";
+  const youtube = "Youtube";
   for (let i = 0; i < arrayLibros.length; i++) {
     var numeroLibro = i+1;
     var seccion = arrayLibros[i].charAt(0);
     var obra = arrayLibros[i].split(';')[0];
     var autor = arrayLibros[i].split(';')[1];
-    var enlace = arrayLibros[i].split(';')[2];
+    var analisisLink = arrayLibros[i].split(';')[2];
+    var youtubeLink = arrayLibros[i].split(';')[3];
+    var existeYoutube = true;
 
-    //Creación de enlace
+    //Creación de análisis
     var a = document.createElement('a');
-    a.innerHTML = youtube;
-    a.setAttribute("href", enlace);
+    a.innerHTML = analisis;
+    a.setAttribute("href", analisisLink);
     a.setAttribute("target", "_blank");
+	  
+    //Creación de enlace a youtube si existe
+    if(youtubeLink != null){
+	var a2 = document.createElement('a');
+	a2.innerHTML = youtube;
+	a2.setAttribute("href", youtubeLink);
+	a2.setAttribute("target", "_blank");
+    } else {
+        existeYoutube = false;
+    }
 
     //Añadir a sección correcta
     var seccionCorrecta = document.getElementById(seccion);
@@ -138,6 +151,11 @@
       //Vinculamos el texto al párrafo
       p.appendChild(texto);
       p.appendChild(a);
+      if(existeYoutube){
+	var pYoutube = document.createTextNode(" | ");
+	p.appendChild(pYoutube);
+	p.appendChild(a2);
+      }
     //Añadimos las etiquetas a su lugar
     seccionCorrecta.appendChild(p);
   }
